@@ -14,6 +14,7 @@
 
         <project.jackson.version>2.9.5</project.jackson.version>
         <project.apache.version>3.17</project.apache.version>
+        <project.spring.boot.version>2.0.1.RELEASE</project.spring.boot.version>
     </properties>
 
     <dependencies>
@@ -36,6 +37,13 @@
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
             <version>${project.jackson.version}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+            <version>${project.spring.boot.version}</version>
         </dependency>
 
 
